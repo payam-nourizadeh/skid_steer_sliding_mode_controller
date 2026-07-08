@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smc-controller"
+version = "0.1.0"
+description = "Sliding-mode trajectory-tracking controller for skid-steering mobile robots"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy>=1.20",
+    "pyyaml>=5.4",
+]
+
+[project.optional-dependencies]
+examples = ["matplotlib>=3.4"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["smc_controller"]

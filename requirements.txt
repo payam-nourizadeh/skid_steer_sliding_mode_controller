@@ -1,0 +1,8 @@
+numpy>=1.20
+pyyaml>=5.4
+
+# Optional, only needed for examples/simulate_trajectory.py plotting:
+# matplotlib>=3.4
+
+# Optional, only needed for running tests/:
+# pytest>=7.0
