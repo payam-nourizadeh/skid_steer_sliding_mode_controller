@@ -1,7 +1,9 @@
 # Sliding-Mode Trajectory Tracking Controller for Skid-Steering Mobile Robots
 
 A pure-Python (no ROS dependency), drop-in sliding-mode controller for
-trajectory tracking on skid-steering mobile robots (SSMRs) — e.g. Clearpath
+trajectory tracking on skid-steering mobile robots (SSMRs) - also known as
+skid-steer autonomous ground vehicles (AGVs) or differential-drive
+autonomous mobile robots (AMRs) — e.g. Clearpath
 Jackal or Husky, Pioneer 3-AT, AgileX Scout, or any other differential/skid-steered platform.
 
 The control law follows the sliding-mode controller (SMC) described in the
